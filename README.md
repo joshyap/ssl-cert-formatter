@@ -4,4 +4,5 @@ This CLI program should take an input string and format it as an certificate. Th
 1. Starts with -----BEING CERTIFICATE-----
 2. Ends with -----END CERTIFICATE-----
 3. Each line has a maximum of 65 characters
+4. Remove spaces (even though they are technically allowed in base 64 encoding)
  
