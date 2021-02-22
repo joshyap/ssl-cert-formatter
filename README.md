@@ -51,3 +51,8 @@ AlVTMQswCQYDVQQIEwJUWDEUMBIGA1UEBxMLU2FuIEFudG9uaW8xHzAdBgNVBAoM
 FlRleGFzIEEgJiBNIFVuaXZlcnNpdHkxKTAnBgNVBAsMIFRleGFzIEEmTSBVbml2
 ZXJzaXR5LVNhbiBBbnR
 <br>-----END CERTIFICATE-----
+
+
+Once a correctly formatted certificate is generated, you can use it to generate a SHA1 fingerprint:
+
+```openssl x509 -noout -fingerprint -in certname.cert```
