@@ -1,4 +1,4 @@
-# ssl-cert-formatter
+# X509-cert-formatter
 This CLI program should take an input string and format it as an certificate. There are 3 main format requirements for a valid certificate:
 
 1. Starts with -----BEING CERTIFICATE-----
